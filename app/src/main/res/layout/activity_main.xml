@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        tools:context=".MainActivity">
+
+    <ImageView
+            android:id="@+id/rotation"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/down_rotation"
+            android:layout_margin="20dp"
+            />
+
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:src="@drawable/android_trimpath"
+            android:id="@+id/androidAnim"
+            android:layout_margin="20dp"
+            />
+
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/morphing"
+            android:layout_margin="20dp"
+            android:src="@drawable/up_down_selector"
+            />
+
+
+</LinearLayout>
